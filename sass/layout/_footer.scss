@@ -1,0 +1,32 @@
+footer {
+  margin-top: 150px;
+}
+
+.footer_wrapper {
+  background: rgba(254, 226, 81, 1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 125px 0 57px;
+}
+
+.footer_logo > a {
+  font-size: 26px;
+  color: #000;
+  font-weight: 800;
+}
+
+.copyright {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+.footer_img {
+  max-width: 25px;
+}

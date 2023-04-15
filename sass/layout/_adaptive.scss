@@ -1,0 +1,661 @@
+@media (max-width: 1350px) {
+  .line_long,
+  .editors_line_long {
+    width: 420px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .line_long,
+  .editors_line_long {
+    width: 300px;
+  }
+
+  .lake_line {
+    width: 200px;
+  }
+
+  .featured_spots_item {
+    max-width: 190px;
+  }
+
+  .item_title > h2 {
+    font-size: 20px;
+  }
+
+  .item_title > h3 {
+    font-size: 16px;
+  }
+
+  .above_img {
+    width: 400px;
+  }
+
+  .above_text > h2 {
+    font-size: 40px;
+  }
+
+  .above_text > span {
+    font-size: 16px;
+  }
+
+  .flatiron {
+    width: 400px;
+    height: 400px;
+  }
+
+  .flatiron_text {
+    height: 50%;
+  }
+
+  .editors2,
+  .editors3,
+  .editors4 {
+    width: 170px;
+  }
+
+  .editors5 {
+    width: 400px;
+  }
+
+  .editors_items {
+    justify-content: space-around;
+  }
+
+  .editors_item_group2 {
+    justify-content: space-around;
+  }
+
+  .mountain_item_text > p {
+    font-size: 14px;
+  }
+
+  .mountain_items {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav_wrap {
+    margin-right: 50px;
+  }
+
+  .line_long,
+  .editors_line_long {
+    width: 300px;
+  }
+
+  .lake_line {
+    width: 30px;
+  }
+
+  .slider_button {
+    padding: 15px 15px 25px 15px;
+  }
+
+  .slide_name,
+  .slide_num {
+    font-size: 10px;
+  }
+
+  .featured_spots_items {
+    flex-wrap: wrap;
+  }
+
+  .featured_spots_item {
+    max-width: 190px;
+  }
+
+  .item_title > h2 {
+    font-size: 20px;
+  }
+
+  .item_title > h3 {
+    font-size: 16px;
+  }
+
+  .above_img {
+    width: 400px;
+  }
+
+  .above_text > h2 {
+    font-size: 40px;
+  }
+
+  .above_text > span {
+    font-size: 12px;
+  }
+
+  .above_text p {
+    font-size: 10px;
+  }
+
+  .flatiron {
+    width: 400px;
+    height: 400px;
+  }
+
+  .flatiron_text {
+    height: 50%;
+  }
+
+  .editors_line_long {
+    width: 120px;
+  }
+
+  .editors2,
+  .editors3,
+  .editors4 {
+    width: 100%;
+  }
+
+  .editors5 {
+    width: 400px;
+  }
+
+  .editors_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .editors_item_group1 {
+    margin-top: 60px;
+  }
+
+  .editors_item_group2 {
+    gap: 60px;
+  }
+
+  .mountain_text h2 {
+    font-size: 40px;
+  }
+
+  .mountain_item_text {
+    margin-top: 20px;
+  }
+
+  .mountain_item_text > p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .mountain_items {
+    padding-right: 20px;
+  }
+
+  .mountain_item {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 200px;
+  }
+
+  aside {
+    width: 200px;
+    position: absolute;
+    background-color: rgba(40, 39, 42, 0.5);
+    left: -200px;
+    transition: 1s;
+  }
+
+  #open_nav {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  #close_nav {
+    display: block;
+    float: right;
+    padding: 5px 10px;
+    background: none;
+    font-size: 20px;
+
+    color: #fff;
+  }
+
+  .main_nav {
+    font-size: 16px;
+  }
+
+  .main_nav ul {
+    padding: 60px 0 0 30px;
+  }
+
+  .main_nav ul li:hover:after {
+    display: none;
+  }
+
+  .main_nav ul li:after {
+    display: none;
+  }
+
+  .main_nav ul li:first-child:after {
+    display: none;
+    top: 180px;
+  }
+
+  .slider {
+    margin-left: 100px;
+    gap: 10px;
+  }
+
+  .nav_wrap {
+    margin-right: 10px;
+    gap: 10px;
+  }
+
+  .line_long,
+  .editors_line_long {
+    width: 100px;
+  }
+
+  .lake_line {
+    width: 100px;
+  }
+
+  .featured_spots_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured_spots_items {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .featured_spots_item {
+    max-width: 190px;
+  }
+
+  .item_title > h2 {
+    font-size: 20px;
+  }
+
+  .item_title > h3 {
+    font-size: 16px;
+  }
+
+  .above_wrapper {
+    flex-direction: column;
+  }
+
+  .above_img {
+    width: 400px;
+  }
+
+  .above_text {
+    padding-left: 20px;
+  }
+
+  .above_text > h2 {
+    font-size: 40px;
+  }
+
+  .above_text > span {
+    font-size: 12px;
+  }
+
+  .above_text p {
+    font-size: 10px;
+  }
+
+  .flatiron {
+    width: 200px;
+    height: 200px;
+  }
+
+  .flatiron_text {
+    height: 50%;
+    padding: 10px;
+  }
+
+  .flatiron_text p {
+    display: none;
+  }
+
+  .editors_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .editors_line_long {
+    width: 30px;
+  }
+
+  .editors2,
+  .editors3,
+  .editors4 {
+    width: 200px;
+  }
+
+  .editors5 {
+    width: 200px;
+  }
+
+  .editors_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .editors_item_group1 {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .editors_item_group2 {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .slider_editors {
+    margin-left: 0;
+  }
+
+  .slider_sort {
+    display: none;
+  }
+
+  .slider_editors > .line_short:last-child {
+    display: none;
+  }
+
+  .mountain_text h2 {
+    font-size: 40px;
+  }
+
+  .mountain_item_text {
+    margin-top: 20px;
+  }
+
+  .mountain_item_text > p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .mountain_items {
+    padding-right: 20px;
+  }
+
+  .mountain_item {
+    flex-wrap: wrap-reverse;
+  }
+
+  .mountain_img {
+    width: 200px;
+  }
+
+  .mountain__container {
+    padding-left: 20px;
+  }
+
+  .footer_wrapper {
+    padding: 0 20px 0 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 200px;
+  }
+
+  .logo > a {
+    padding: 30px 0 30px 30px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  aside {
+    width: 200px;
+    position: absolute;
+    background-color: rgba(40, 39, 42, 1);
+    left: -200px;
+    transition: 1s;
+  }
+
+  #open_nav {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  #close_nav {
+    display: block;
+    float: right;
+    padding: 5px 10px;
+    background: none;
+    font-size: 20px;
+    border: 2px solid white;
+    color: #fff;
+  }
+
+  .main_nav {
+    font-size: 16px;
+  }
+
+  .main_nav ul {
+    padding: 60px 0 0 30px;
+  }
+
+  .main_nav ul li:after {
+    display: none;
+  }
+
+  .main_nav ul li:first-child:after {
+    display: none;
+    top: 180px;
+  }
+
+  .the_walchen_lake_text {
+    margin: 0;
+    padding: 60px 5px 0 5px;
+  }
+
+  .slider {
+    margin-left: 100px;
+    gap: 10px;
+  }
+
+  .slide_name {
+    display: none;
+  }
+
+  .line_long,
+  .line_short {
+    display: none;
+  }
+
+  .nav_wrap {
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 10px 0 0;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line_long,
+  .editors_line_long {
+    width: 100px;
+  }
+
+  .lake_line {
+    width: 100px;
+  }
+
+  .featured_spots_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured_spots_items {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .featured_spots_item {
+    max-width: 190px;
+  }
+
+  .item_title > h2 {
+    font-size: 20px;
+  }
+
+  .item_title > h3 {
+    font-size: 16px;
+  }
+
+  .above_wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .above_img {
+    width: 200px;
+  }
+
+  .above_text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .above_text > h2 {
+    font-size: 40px;
+  }
+
+  .above_text > span {
+    font-size: 12px;
+  }
+
+  .above_text p {
+    font-size: 10px;
+  }
+
+  .flatiron {
+    width: 200px;
+    height: 200px;
+  }
+
+  .flatiron_text {
+    height: 50%;
+    padding: 10px;
+  }
+
+  .flatiron_text p {
+    display: none;
+  }
+
+  .editors_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .editors_line_long {
+    width: 30px;
+  }
+
+  .editors2,
+  .editors3,
+  .editors4 {
+    width: 200px;
+  }
+
+  .editors5 {
+    width: 200px;
+  }
+
+  .editors_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .editors_item_group1 {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .editors_item_group2 {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .slider_editors {
+    margin-left: 0;
+  }
+
+  .slider_sort {
+    display: none;
+  }
+
+  .slider_editors > .line_short:last-child {
+    display: none;
+  }
+
+  .mountain_text h2 {
+    font-size: 40px;
+  }
+
+  .mountain_item_text {
+    margin-top: 20px;
+  }
+
+  .mountain_item_text > p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .mountain_items {
+    padding-right: 20px;
+  }
+
+  .mountain_item {
+    flex-wrap: wrap-reverse;
+  }
+
+  .mountain_img {
+    width: 200px;
+  }
+
+  .mountain__container {
+    padding-left: 20px;
+  }
+
+  .subscribe_input {
+    flex-direction: column;
+    padding: 0 5px 0 5px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .footer_wrapper {
+    padding: 0 5px 0 5px;
+  }
+
+  .footer_logo > a {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+
+  .icons {
+    gap: 10px;
+  }
+}

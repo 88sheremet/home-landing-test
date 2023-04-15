@@ -1,0 +1,71 @@
+.the_walchen_lake {
+  background-image: linear-gradient(
+      to top,
+      rgba(40, 39, 42, 1) 0%,
+      rgba(40, 39, 42, 0) 100%
+    ),
+    url("../img/walchen_lake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_nav {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 360px;
+  height: 90px;
+  background: rgba(254, 226, 81, 1);
+}
+
+.logo > a {
+  display: inline-block;
+  padding: 30px 0 30px 55px;
+  font-size: 26px;
+  color: #000;
+  font-weight: 800;
+}
+
+#open_nav {
+  display: none;
+}
+
+#close_nav {
+  display: none;
+}
+
+.nav_wrap {
+  height: 100%;
+  float: right;
+  margin-right: 120px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav_wrap > span {
+  color: #fff;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-link:hover{
+font-size:medium;
+}
+
+.circle {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-left: 20px;
+}

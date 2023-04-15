@@ -1,0 +1,76 @@
+.mountain {
+  background-image: linear-gradient(
+      to top,
+      rgba(40, 39, 42, 1) 0%,
+      rgba(40, 39, 42, 0) 100%
+    ),
+    linear-gradient(to bottom, rgba(40, 39, 42, 1) 0%, rgba(40, 39, 42, 0) 100%),
+    url("../img/mountain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px;
+  background-size: 1440px 1420px;
+}
+
+.mountain__container {
+  padding-left: 160px;
+}
+
+.mountain_text,
+.mountain_item_text {
+  color: #fff;
+}
+
+.mountain_text h2 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.mountain_text p {
+  display: block;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.8;
+  max-width: 360px;
+}
+
+.mountain_items {
+  margin-top: 120px;
+}
+
+.mountain_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mountain_item_text h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.mountain_item_text p {
+  display: block;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 590px;
+}
+
+.mountain_img {
+  max-width: 370px;
+  max-height: 370px;
+}
+
+.mountain_line {
+  background: rgba(116, 103, 95, 1);
+  height: 1px;
+  max-width: 100%;
+}
+
+.mountain_item:not(:first-child) {
+  margin-top: 50px;
+}

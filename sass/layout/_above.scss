@@ -1,0 +1,35 @@
+.above {
+  margin-top: 160px;
+}
+
+.above_wrapper {
+  display: flex;
+  gap: 120px;
+}
+
+.above_img {
+  max-width: 600px;
+}
+
+.above_text {
+  color: #fff;
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.above_text h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.above_text span {
+  display: inline-block;
+  font-family: "Libre Baskerville";
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 30px;
+}
+
+.above_text p {
+  line-height: 1.3;
+}
