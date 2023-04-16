@@ -7,9 +7,11 @@
     <title>Test Landing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -17,240 +19,121 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-
-    <div class="the_walchen_lake">
-      <header class="header-page">
+    <header class="header-page">
+      <img src="./img/ColorBlur.png" alt="" class="header__image" />
+      <div class="header-container">
+       
+       
+        <div class="logo">
+            <a href="/" class="logo__link">
+              <svg class="list__icon" width="24" height="24">
+                <use href="./img/sprite.svg#icon-logo"></use>
+              </svg>
+              <p class="logo__text">Hounter</p>
+            </a>
+          </div>
           <nav class="header_nav">
-              <div class="logo">
-                  <a href="/">trppd _</a>
-              </div>
-              <div class="nav_wrap">
-                  <a href="/" class="collection-link">My Collection</a>
-                  <span>|</span>
-                  <div class="user">
-                      <a href="/" class="collection-link">Galih Pambudi</a>
-                      <span class="circle"></span>
-                  </div>
-              </div>
-          </nav>
-      </header>
-      <main>
-          <div class="the_walchen_lake_wrapper">
-              <button id="open_nav">&#9776;</button>
-              <aside>
-                  <button id="close_nav">&#10006;</button>
-                  <nav class="main_nav">
-                      <ul class="nav-list">
-                          <li><a href="/">Home</a></li>
-                          <li><a href="/">Recommendation</a></li>
-                          <li><a href="/">Explore</a></li>
-                          <li><a href="/">Help</a></li>
-                          <li><a href="/">About Us</a></li>
-                      </ul>
-                      </nav>
-                  </aside>
-                  <div class="the_walchen_lake_text">
-                      <h1>The Walchen<br>Lake</h1>
-                      <p>One of the deepest and largest alpine lakes in Germany and one of the best outdoors place<br>that you never imagine before.</p>
-                      <a class="read_more button" href="/">Read More</a>
-                  </div>
-          </div>
-          <div class="slider">
-              <button class="slider_button">&#8249;</button>
-              <button class="slider_button">&#8250;</button>
-              <span class="slide_name">Outdoors ediiton</span>
-              <span class="line_long line lake_line"></span>
-              <span class="slide_num">2 / 8</span>
-              <span class="line_short line"></span>
-          </div>
+          <ul class="header_nav__list">
+            <li class="header_nav__item">About Us</li>
+            <li class="header_nav__item">Article</li>
+            <li class="header_nav__item">
+              <select name="" id="" class="header_nav__select">
+               
+                <option value="" selected> Property</option>
+                <option value="">House</option>
+                <option value="">Villa</option>
+                <option value="">Apartment</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      
+           
+          <button class="sign-button">Sign Up!</button>
+      </div>
+     
+    </header>
+    <main>
+      <section class="hero">
+        <img
+          src="./img/Img.png"
+          alt=""
+          class="hero__image"
+          width="720px"
+          height="720px"
+        />
+        <h1 class="hero__title">find the place to live <span>your dreams</span> easily here</h1>
+        <p class="hero__description"> 
+          Everything you need about finding your place to live will be here,
+          where it will be easier for you
+        </p>
+       <div class="input-container">
+        <input type="text" class="hero__input" placeholder="Search for the location you want!"/>
+        <svg  width="24" height="24" class="input-icon">
+          <use href="./img/sprite.svg#icon-location"></use>
+        </svg>
+        <button class="search-button">
+          Search
+          <svg class="list__icon" width="24" height="24">
+            <use href="./img/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+       </div>
+        <p class="hero__partners">Our Partnership</p>
+        <div class="partners-images">
+          <img src="./img/traveloka2.png" alt="" />
+          <img src="./img/traveloka4.png" alt="" />
+          <img src="./img/traveloka3.png" alt="" />
+          <img src="./img/traveloka1.png" alt="" />
         </div>
-  <section class="featured_spots">
-      <div class="main__container">
-          <div class="featured_spots_wrapper">
-              <div class="featured_spots_text">
-                  <h2>Featured<br>Spots</h2>
-                  <p>Some of featured spot that you might want visit before you die</p>
-                  <span class="line_short line view_all_line"></span>
-                  <a class="view_all" href="/">View All</a>
-              </div>
-              <div class="featured_spots_items">
-                  <div class="featured_spots_item">
-                      <img class="featured_spots_img" src="./img/peru.png" alt="Peru">
-                      <div class="item_title">
-                          <h2>Ollantaytambo</h2>
-                          <h3>Peru</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <a href="/" class="read-more-link">read more</a>
-                  </div>
-                  <div class="featured_spots_item">
-                      <img class="featured_spots_img" src="./img/usa.png" alt="Peru">
-                      <div class="item_title">
-                          <h2>Antelope Canyon</h2>
-                          <h3>USA</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <a href="/" class="read-more-link">read more</a>
-                  </div>
-                  <div class="featured_spots_item">
-                      <img class="featured_spots_img" src="img/canada.png" alt="Peru">
-                      <div class="item_title">
-                          <h2>Lake Louise</h2>
-                          <h3>Canada</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <a href="/" class="read-more-link">read more</a>
-                  </div>
-              </div>
-          </div>
-          <div class="slider featured_slider">
-              <span class="slide_name">Outdoors ediiton</span>
-              <span class="line_long line featured_line"></span>
-              <span class="slide_num">2 / 8</span>
-              <span class="line_short line"></span>
-          </div>
-      </div>
-  </section>
-  <section class="above">
-      <div class="above_wrapper">
-          <img class="above_img" src="img/above.png" alt="Sea">
-          <div class="above_text">
-              <h2>Above<br>The Sea</h2>
-              <span>" Lorem, ipsum dolor consectetur adipisicing elit. Dicta enim illo recusandae esse veritatis sint, exercitationem cum consequatur sed "</span>
-              <p style="margin-top: 50px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab expedita odio dolorem perspiciatis consequatur iusto, laudantium ipsa assumenda cumque, animi quidem quasi veritatis. Reprehenderit laudantium sed saepe delectus odio unde.</p>
-              <p style="margin-top: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo pariatur hic excepturi facilis animi dolore eaque ducimus, commodi dolorum eum inventore unde nisi distinctio voluptatem eos sed ullam deleniti dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eius culpa nobis enim autem exercitationem excepturi, ex dolorem blanditiis, illum id consequuntur delectus nulla! Sed, iste. Aperiam corrupti dicta fuga?</p>
-              <a class="read_more button" href="/">Read More</a>
-  
-          </div>
-      </div>
-  </section>
-  <section class="editors">
-      <div class="main__container">
-          <div class="editors_wrapper">
-              <div class="editors_text">
-                  <h2>Editor's<br>Pick</h2>
-                  <p>Our picks, just for you nam an vidisse admodum omittantur,<br>nihil corrumpit</p>
-              </div>
-              <div class="editors_items">
-                  <div class="slider slider_editors">
-                      <button class="slider_button">&#8249;</button>
-                      <button class="slider_button">&#8250;</button>
-                      <span class="editors_line_long line"></span>
-                      <span class="slide_num">1 / 3</span>
-                      <span class="line_short line"></span>
-                      <span class="slider_sort">sort by</span>
-                      <span class="line_short line"></span>
-                  </div>
-                  <div class="flatiron">
-                      <div class="flatiron_text">
-                          <div class="item_title">
-                              <h2>Flatiron</h2>
-                              <h3>USA</h3>
-                          </div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores</p>
-                      </div>
-                  </div>
-                  <div class="editors_item_group1">
-                      <img class="editors2" src="./img/editors2.png" alt="pic">
-                      <img class="editors3" src="./img/editors3.png" alt="pic">
-                  </div>
-                  <div class="editors_item_group2">
-                      <img class="editors4" src="./img/editors4.png" alt="pic">
-                      <img class="editors5" src="./img/editors5.png" alt="pic">
-                  </div>
-              </div>
-          </div>
+
+        <div id="slider">
+            <div id="polosa">
+                <div class="polosa-container">
+                    <img src="./img/hero1.png" alt="" class="image-one" >
+                    <div class="description-wrapper">
+                        <p>1K+ People</p>
+                    <p>Successfully Getting Home</p>
+                    </div>
+                    
+                </div>
+                <div class="polosa-container-2">
+                    <img src="./img/hero2.png" alt="">
+                    <div class="description-wrapper">
+                        <p>56 Houses</p>
+                    <p>Sold Monthly</p>
+                    </div>
+                    
+                </div>
+                <div class="polosa-container-3">
+                    <img src="./img/hero3.png" alt="">
+                    <div class="description-wrapper">
+                        <p>4K+</p>
+                    <p>People Looking for New Homes</p>
+                    </div>
+                    
+                </div>
+                <div class="polosa-container-2">
+                    <img src="./img/hero2.png" alt="">
+                    <div class="description-wrapper">
+                        <p>56 Houses</p>
+                    <p>Sold Monthly</p>
+                    </div>
+                    
+                </div>
+                <div class="polosa-container-3">
+                    <img src="./img/hero3.png" alt="">
+                    <div class="description-wrapper">
+                        <p>4K+</p>
+                    <p>People Looking for New Homes</p>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-  </section>
-  <section class="mountain">
-      <div class="main__container mountain__container">
-          <div class="mountain_text">
-              <h2>Mountain Collections</h2>
-              <p>See your best mountain collections explore and Lorem ipsum dolor sit amet, te eam oratio inperdient nan an visidle admodum omittartum , nihil corrumpit an cum</p>
-          </div>
-          <div class="mountain_items">
-              <div class="mountain_item">
-                  <div class="mountain_item_text">
-                      <div class="item_title">
-                          <h2>Southern Mountain</h2>
-                          <h3>South Country</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores.</p>
-                      <a class="read_more button" href="/">Read More</a>
-                  </div>
-                  <img class="mountain_img" src="./img/mountain1.png" alt="mountain">
-              </div>
-              <div class="mountain_line"></div>
-              <div class="mountain_item">
-                  <div class="mountain_item_text">
-                      <div class="item_title">
-                          <h2>Northern Mountain</h2>
-                          <h3>North Country</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores.</p>
-                      <a class="read_more button" href="/">Read More</a>
-                  </div>
-                  <img class="mountain_img" src="img/mountain2.png" alt="mountain">
-              </div>
-              <div class="mountain_line"></div>
-              <div class="mountain_item">
-                  <div class="mountain_item_text">
-                      <div class="item_title">
-                          <h2>Eastern Mountain</h2>
-                          <h3>East Country</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores, obcaecati aut ex perspiciatis deleniti quae beatae vitae similique!</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis commodi laudantium accusamus consequatur inventore, ab sint itaque facere adipisci asperiores.</p>
-                      <a class="read_more button" href="/">Read More</a>
-                  </div>
-                  <img class="mountain_img" src="img/mountain3.png" alt="mountain">
-              </div>
-          </div>
-      </div>
-      <div class="main__container"><div style="margin-top: 70px;" class="mountain_line"></div></div>
-  </section>
-  <section class="subscribe">
-      <div class="main__container">
-        <div class="subscribe_text">
-          Subscribe to our news letter
-      </div>
-          <div class="subscribe_wrapper">
-              <div class="subscribe_input">
-                  <input type="text" placeholder="Your Email">
-                  <button type="submit" class="subscribe_button button">Subscribe</button>
-              </div>
-          </div>
-      </div>
-  </section>
-  </main>
-  <footer>
-      <div class="footer_wrapper">
-          <div class="footer_logo">
-              <a href="/">trppd _</a>
-          </div>
-          <div class="copyright">
-              &#169; 2017 - 2018
-          </div>
-          <div class="icons">
-              <a href="/">
-                <svg class="list__icon" width="24" height="24">
-                  <use href="./img/sprite.svg#icon-instagram"></use>
-                </svg>
-              </a>
-              <a href="/">
-                <svg class="list__icon" width="24" height="24">
-                  <use href="./img/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-              <a href="/">
-                <svg class="list__icon" width="24" height="24">
-                  <use href="./img/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-          </div>
-      </div>
-  </footer>
+      </section>
+    </main>
+    <footer></footer>
+   <script src="./index.js"></script>
   </body>
 </html>

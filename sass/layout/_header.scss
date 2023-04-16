@@ -1,71 +1,103 @@
-.the_walchen_lake {
-  background-image: linear-gradient(
-      to top,
-      rgba(40, 39, 42, 1) 0%,
-      rgba(40, 39, 42, 0) 100%
-    ),
-    url("../img/walchen_lake.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.header-page{
+  padding: 40px 120px;
 }
 
-.header_nav {
-  height: 90px;
+.header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-wrapper{
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.logo {
-  width: 360px;
-  height: 90px;
-  background: rgba(254, 226, 81, 1);
+.header__image{
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-.logo > a {
-  display: inline-block;
-  padding: 30px 0 30px 55px;
-  font-size: 26px;
-  color: #000;
-  font-weight: 800;
-}
-
-#open_nav {
-  display: none;
-}
-
-#close_nav {
-  display: none;
-}
-
-.nav_wrap {
-  height: 100%;
-  float: right;
-  margin-right: 120px;
+.logo{
   display: flex;
-  align-items: center;
-  gap: 30px;
+  
+}
+.logo__text{
+  font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+text-transform: capitalize;
+
+color: #1B1C57;
 }
 
-.nav_wrap > span {
-  color: #fff;
+.logo__link{
+z-index: 10;
+display: flex;
+align-items: center;
+gap: 12px;
 }
 
-.user {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header_nav__list{
+  z-index: 10;
 }
 
-.collection-link:hover{
-font-size:medium;
+.sign-button{
+  z-index: 10;
+  background: #D1FAE5;
+border-radius: 32px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+
+color: #047857;
+padding: 12px 24px;
+width: 108px;
+height: 46px;
+margin-left: 56px;
 }
 
-.circle {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #000;
-  margin-left: 20px;
+.header_nav__list{
+display: flex;
+align-items: center;
+z-index: 10;
+gap: 16px;
+margin-left: 430px;
+}
+
+.header_nav__item{
+  z-index: 10;
+  padding: 8px 16px;
+
+height: 34px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 32px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+
+
+color: #F0F3FD;
+}
+
+.header_nav__select{
+  background: rgba(255, 255, 255, 0.1);
+  font-family: 'Lexend';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+
+
+color: #F0F3FD;
 }

@@ -36,9 +36,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: rgba(40, 39, 42, 1);
-
   font-family: "Roboto";
+  
 }
 
 input,
@@ -67,6 +66,7 @@ a:hover {
 }
 ul li {
   list-style: none;
+  // text-decoration: none;
 }
 img {
   vertical-align: top;
@@ -82,7 +82,7 @@ h6 {
   font-weight: 400;
 }
 
-[class*="__container"] {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+// [class*="__container"] {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
