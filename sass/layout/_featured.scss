@@ -1,92 +1,215 @@
-// .featured_spots {
-//   margin-top: 100px;
-// }
+.featured {
+  padding-left: 120px;
+  padding-right: 120px;
+  position: relative;
+}
 
-// .featured_spots_wrapper {
-//   display: flex;
-//   gap: 120px;
-// }
+.featured__recomendation {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: -40px;
+  text-transform: capitalize;
+  position: relative;
+  color: #f59e0b;
+  padding-left: 40px;
+  margin-bottom: 12px;
+}
 
-// .featured_spots_text {
-//   max-width: 180px;
-//   color: #fff;
-//   text-align: right;
-// }
+.featured__recomendation::before {
+  content: "";
+  display: flex;
+  width: 32px;
+  height: 1px;
+  background: #f59e0b;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
 
-// .featured_spots_text h2 {
-//   font-weight: 600;
-//   font-size: 30px;
-//   line-height: 1.2;
-// }
+.featured__title {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #1b1c57;
+  margin-bottom: 40px;
+}
 
-// .featured_spots_text p {
-//   font-weight: 600;
-//   font-size: 16px;
-//   line-height: 1.8;
-//   margin-top: 30px;
-// }
+.featured__button-container {
+  display: flex;
+  gap: 136px;
+  position: absolute;
+  top: 1%;
+  right: 10%;
+}
 
-// .view_all_line {
-//   background: #fff;
-//   width: 90px;
-// }
+.filter-container {
+  display: flex;
+  gap: 32px;
+}
 
-// .view_all {
-//   font-weight: 600;
-// }
+.slider-container {
+  display: flex;
+  gap: 16px;
+}
 
-// .view_all,
-// .view_all_line {
-//   margin-top: 125px;
-// }
+.filter-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  height: 52px;
+  border: 1px solid #e0e3eb;
+  border-radius: 32px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 
-// .featured_spots_items {
-//   display: flex;
-//   gap: 50px;
-//   margin-top: 80px;
-// }
+  color: #888b97;
+}
 
-// .featured_spots_item {
-//   max-width: 270px;
-//   color: #fff;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 40px;
-// }
+.slider-button-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 4px;
+  width: 60px;
+  height: 52px;
+  background: #e0e3eb;
+  border-radius: 32px;
+}
 
-// .featured_spots_img {
-//   max-width: 270px;
-// }
+.slider-button-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 4px;
+  width: 60px;
+  height: 52px;
+  background: #e0e3eb;
+  border-radius: 32px;
+}
 
-// .item_title h2 {
-//   font-size: 26px;
-//   font-weight: 800;
-// }
+.green {
+  background: #10b981;
+}
 
-// .item_title h3 {
-//   font-size: 20px;
-//   font-weight: 800;
-//   color: rgba(102, 102, 104, 1);
-//   line-height: 1.5;
-// }
+.featured__list {
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
 
-// .featured_spots_item a {
-//   color: rgba(241, 222, 132, 1);
-//   font-weight: 600;
-// }
+.featured__slider {
+  width: 1280px;
+  // border: 2px solid black;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+}
 
-// .featured_slider {
-//   margin: 60px 0 0 288px;
-// }
+.featured-item {
+  position: relative;
+}
 
-// .featured_line {
-//   width: 670px;
-// }
+.hiden {
+  display: none;
+}
 
-// .read-more-link {
-//   color: #f1de84;
-// }
+.item-container {
+  display: flex;
+  // flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  position: absolute;
+  //   top: 71%;
+  margin-left: 10px;
 
-// .read-more-link:hover {
-//   color: rgb(255, 213, 0);
-// }
+  // left: 1%;
+  top: 337px;
+  width: 112px;
+  height: 34px;
+  background: #fee2e2;
+  border-radius: 32px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ef4444;
+}
+
+.blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+  width: 145px;
+  height: 34px;
+}
+.greeen {
+  color: #047857;
+  background: #d1fae5;
+  width: 140px;
+  height: 34px;
+}
+
+.featured__text {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0e1735;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.featured__price {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3c4563;
+  margin-bottom: 24px;
+}
+
+.profile {
+  display: flex;
+  gap: 16px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-name {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0e1735;
+}
+
+.profile-city {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #888b97;
+}
